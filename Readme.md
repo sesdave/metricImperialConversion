@@ -19,13 +19,11 @@ git clone https://github.com/sesdave/metricImperialConversion.git
 
 + open `src/main/resources/application.properties`
 
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
-
 **4. Build and run the app using maven**
 
 ```bash
 mvn package
-java -jar target/iapl-robot-1.0.0.jar
+java -jar target/ImperialMetricConverter-1.0.0.jar
 ```
 
 Alternatively, you can run the app without packaging it using -
@@ -41,6 +39,7 @@ The app will start running at <http://localhost:8081>.
 The app defines following APIs.
 
     GET /api/convert?value=3&unit=celcius
+
     
     
 
@@ -50,4 +49,4 @@ You can test them using postman or any other rest client.
 
 document is published on postman and url is -
 
-<https://documenter.getpostman.com/view/7170305/UVsTriLS/>
+<https://documenter.getpostman.com/view/7170305/VUqptxpf/>

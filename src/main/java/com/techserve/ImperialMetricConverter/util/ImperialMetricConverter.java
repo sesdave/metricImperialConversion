@@ -15,7 +15,7 @@ public class ImperialMetricConverter {
         unitHashMap.put("inch", Unit.INCH);
         unitHashMap.put("km", Unit.KILOMETRE);
         unitHashMap.put("celcius", Unit.CELSIUS);
-        unitHashMap.put("fareign", Unit.FAHRENHEIT);
+        unitHashMap.put("Fahrenheit", Unit.FAHRENHEIT);
         unitHashMap.put("ounce", Unit.OUNCE);
         unitHashMap.put("ml", Unit.MILLILITRE);
         unitHashMap.put("kg", Unit.KILOGRAM);
@@ -27,7 +27,7 @@ public class ImperialMetricConverter {
         conversionUnitMap.put("gallon", Unit.LITRE);
         conversionUnitMap.put("km", Unit.INCH);
         conversionUnitMap.put("inch", Unit.KILOMETRE);
-        conversionUnitMap.put("fareign", Unit.CELSIUS);
+        conversionUnitMap.put("Fahrenheit", Unit.CELSIUS);
         conversionUnitMap.put("celcius", Unit.FAHRENHEIT);
         conversionUnitMap.put("kg", Unit.OUNCE);
         conversionUnitMap.put("pint", Unit.MILLILITRE);
