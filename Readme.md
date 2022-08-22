@@ -1,4 +1,4 @@
-# Spring Boot, MySQL, JPA, Hibernate Rest API 
+# ImperialMetric Unit Conversion Spring Boot Rest API 
 
 Build Restful CRUD API for Conversion between Metric and Imperial Units using Spring Boot.
 
