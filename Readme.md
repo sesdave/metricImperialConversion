@@ -1,6 +1,6 @@
 # Spring Boot, MySQL, JPA, Hibernate Rest API 
 
-Build Restful CRUD API for Iapl Robot application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful CRUD API for Conversion between Metric and Imperial Units using Spring Boot.
 
 ## Requirements
 
