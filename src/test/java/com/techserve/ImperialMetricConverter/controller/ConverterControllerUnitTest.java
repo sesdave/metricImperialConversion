@@ -27,7 +27,7 @@ class ConverterControllerUnitTest {
     ConverterService converterService;
 
     @Test
-    void convertMetricImperial() throws Exception {
+    void should_convertMetricImperial() throws Exception {
         Mockito.when(converterService.convertImperial(3.1, "celcius")).thenReturn(new RestResponse("","","", ""));
         mockMvc.perform(MockMvcRequestBuilders.get("/api/convert?value=3.0&unit=celsius")
                                         .contentType(MediaType.APPLICATION_JSON))
